@@ -16,9 +16,9 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
-
-
+barj8@JPC MINGW64 /d/Microsoft VS Projects
+$ ls
+ lab-1-command-line-os-agnostic-master/  'Untitled Folder'/
 ==========
 2a. Type: 
 
@@ -26,7 +26,7 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-Desktop/    Documents/  Downloads/
+Nothing happened
 
 
 ==========
@@ -38,7 +38,7 @@ rdrgeerwtger yg erwy brg
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: cannot access 'D': No such file or directory
 
 
 ==========
@@ -48,7 +48,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+$ ls -l documents
+ls: cannot access 'documents': No such file or directory
 
 
 ==========
@@ -58,6 +59,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
+$ ls -a documents
+ls: cannot access 'documents': No such file or directory
 
 
 
@@ -68,7 +71,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a documents
 
 
 ==========
@@ -79,7 +82,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
-
+ls -a  documents
 
 ==========
 7.  Type:
@@ -88,6 +91,111 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
+barj8@JPC MINGW64 /d/Microsoft VS Projects
+$ ls /bin/
+'[.exe'*                      git-flow-log                msys-gssapi-3.dll*            seq.exe*
+ addgnupghome*                git-flow-release            msys-hcrypto-4.dll*           setfacl.exe*
+ applygnupgdefaults*          gitflow-shFlags             msys-heimbase-1.dll*          setmetamode.exe*
+ arch.exe*                    git-flow-support            msys-heimntlm-0.dll*          sexp-conv.exe*
+ astextplain*                 git-flow-version            msys-hogweed-6.dll*           sftp.exe*
+ autopoint*                   gkill.exe*                  msys-hx509-5.dll*             sh.exe*
+ awk.exe*                     glib-compile-schemas.exe*   msys-iconv-2.dll*             sha1sum.exe*
+ b2sum.exe*                   gmondump.exe*               msys-idn2-0.dll*              sha224sum.exe*
+ backup*                      gobject-query.exe*          msys-intl-8.dll*              sha256sum.exe*
+ base32.exe*                  gpg.exe*                    msys-kafs-0.dll*              sha384sum.exe*
+ base64.exe*                  gpg-agent.exe*              msys-krb5-26.dll*             sha512sum.exe*
+ basename.exe*                gpgconf.exe*                msys-ksba-8.dll*              shred.exe*
+ basenc.exe*                  gpg-connect-agent.exe*      msys-lz4-1.dll*               shuf.exe*
+ bash.exe*                    gpg-error.exe*              msys-magic-1.dll*             sleep.exe*
+ bashbug*                     gpgparsemail.exe*           msys-mpfr-6.dll*              sort.exe*
+ bunzip2.exe*                 gpgscm.exe*                 msys-ncursesw6.dll*           split.exe*
+ bzcat.exe*                   gpgsm.exe*                  msys-nettle-8.dll*            ssh.exe*
+ bzcmp*                       gpgsplit.exe*               msys-npth-0.dll*              ssh-add.exe*
+ bzdiff*                      gpgtar.exe*                 msys-p11-kit-0.dll*           ssh-agent.exe*
+ bzegrep*                     gpgv.exe*                   msys-pcre-1.dll*              ssh-copy-id*
+ bzfgrep*                     gpg-wks-server.exe*         msys-perl5_34.dll*            sshd.exe*
+ bzgrep*                      grep.exe*                   msys-psl-5.dll*               ssh-keygen.exe*
+ bzip2.exe*                   groups.exe*                 msys-readline8.dll*           ssh-keyscan.exe*
+ bzip2recover.exe*            gsettings.exe*              msys-roken-18.dll*            ssh-pageant.exe*
+ bzless*                      gunzip*                     msys-sasl2-3.dll*             ssp.exe*
+ bzmore*                      gzexe*                      msys-serf-1-0.dll*            start*
+ c_rehash*                    gzip.exe*                   msys-smartcols-1.dll*         stat.exe*
+ captoinfo.exe*               head.exe*                   msys-sqlite3-0.dll*           stdbuf.exe*
+ cat.exe*                     hmac256.exe*                msys-ssl-1.1.dll*             strace.exe*
+ chattr.exe*                  hostid.exe*                 msys-svn_client-1-0.dll*      stty.exe*
+ chcon.exe*                   hostname.exe*               msys-svn_delta-1-0.dll*       sum.exe*
+ chgrp.exe*                   iconv.exe*                  msys-svn_diff-1-0.dll*        sync.exe*
+ chmod.exe*                   id.exe*                     msys-svn_fs_fs-1-0.dll*       tabs.exe*
+ chown.exe*                   infocmp.exe*                msys-svn_fs_util-1-0.dll*     tac.exe*
+ chroot.exe*                  infotocap.exe*              msys-svn_fs_x-1-0.dll*        tail.exe*
+ cksum.exe*                   install.exe*                msys-svn_fs-1-0.dll*          tar.exe*
+ clear.exe*                   join.exe*                   msys-svn_ra_local-1-0.dll*    tee.exe*
+ cmp.exe*                     kbxutil.exe*                msys-svn_ra_serf-1-0.dll*     test.exe*
+ column.exe*                  kill.exe*                   msys-svn_ra_svn-1-0.dll*      tic.exe*
+ comm.exe*                    ldd.exe*                    msys-svn_ra-1-0.dll*          tig.exe*
+ core_perl/                   ldh.exe*                    msys-svn_repos-1-0.dll*       timeout.exe*
+ cp.exe*                      less.exe*                   msys-svn_subr-1-0.dll*        toe.exe*
+ csplit.exe*                  lessecho.exe*               msys-svn_swig_perl-1-0.dll*   touch.exe*
+ cut.exe*                     lesskey.exe*                msys-svn_wc-1-0.dll*          tput.exe*
+ cygcheck.exe*                link.exe*                   msys-tasn1-6.dll*             tr.exe*
+ cygpath.exe*                 ln.exe*                     msys-ticw6.dll*               true.exe*
+ cygwin-console-helper.exe*   locale.exe*                 msys-unistring-2.dll*         truncate.exe*
+ d2u.exe*                     locate.exe*                 msys-uuid-1.dll*              trust.exe*
+ dash.exe*                    logname.exe*                msys-wind-0.dll*              tset.exe*
+ date.exe*                    ls.exe*                     msys-z.dll*                   tsort.exe*
+ dd.exe*                      lsattr.exe*                 mv.exe*                       tty.exe*
+ df.exe*                      mac2unix.exe*               nano.exe*                     tzset.exe*
+ diff.exe*                    md5sum.exe*                 nettle-hash.exe*              u2d.exe*
+ diff3.exe*                   minidumper.exe*             nettle-lfib-stream.exe*       umount.exe*
+ dir.exe*                     mintheme*                   nettle-pbkdf2.exe*            uname.exe*
+ dircolors.exe*               mintty.exe*                 ngettext.exe*                 uncompress*
+ dirmngr.exe*                 mkdir.exe*                  nice.exe*                     unexpand.exe*
+ dirmngr-client.exe*          mkfifo.exe*                 nl.exe*                       uniq.exe*
+ dirname.exe*                 mkgroup.exe*                nohup.exe*                    unix2dos.exe*
+ docx2txt*                    mknod.exe*                  notepad*                      unix2mac.exe*
+ docx2txt.pl*                 mkpasswd.exe*               nproc.exe*                    unlink.exe*
+ dos2unix.exe*                mktemp.exe*                 numfmt.exe*                   unzip.exe*
+ du.exe*                      mount.exe*                  od.exe*                       unzipsfx.exe*
+ dumpsexp.exe*                mpicalc.exe*                openssl.exe*                  update-ca-trust*
+ echo.exe*                    msgattrib.exe*              p11-kit.exe*                  updatedb*
+ egrep*                       msgcat.exe*                 passwd.exe*                   users.exe*
+ env.exe*                     msgcmp.exe*                 paste.exe*                    vdir.exe*
+ envsubst.exe*                msgcomm.exe*                patch.exe*                    vendor_perl/
+ ex.exe*                      msgconv.exe*                pathchk.exe*                  vi*
+ expand.exe*                  msgen.exe*                  perl.exe*                     view.exe*
+ expr.exe*                    msgexec.exe*                perl5.34.0.exe*               vim.exe*
+ factor.exe*                  msgfilter.exe*              pinentry.exe*                 vimdiff.exe*
+ false.exe*                   msgfmt.exe*                 pinentry-w32.exe*             vimtutor*
+ fgrep*                       msggrep.exe*                pinky.exe*                    watchgnupg.exe*
+ fido2-assert.exe*            msginit.exe*                pkcs1-conv.exe*               wc.exe*
+ fido2-cred.exe*              msgmerge.exe*               pldd.exe*                     which.exe*
+ fido2-token.exe*             msgunfmt.exe*               pluginviewer.exe*             who.exe*
+ file.exe*                    msguniq.exe*                pr.exe*                       whoami.exe*
+ find.exe*                    msys-2.0.dll*               printenv.exe*                 winpty.dll*
+ findssl.sh*                  msys-apr-1-0.dll*           printf.exe*                   winpty.exe*
+ fmt.exe*                     msys-aprutil-1-0.dll*       profiler.exe*                 winpty-agent.exe*
+ fold.exe*                    msys-asn1-8.dll*            ps.exe*                       winpty-debugserver.exe*
+ funzip.exe*                  msys-assuan-0.dll*          psl.exe*                      wordpad*
+ gapplication.exe*            msys-bz2-1.dll*             psl-make-dafsa*               xargs.exe*
+ gawk.exe*                    msys-cbor-0.8.dll*          ptx.exe*                      xgettext.exe*
+ gawk-5.0.0.exe*              msys-com_err-1.dll*         pwd.exe*                      xxd.exe*
+ gdbus.exe*                   msys-crypt-0.dll*           readlink.exe*                 yat2m.exe*
+ gencat.exe*                  msys-crypto-1.1.dll*        realpath.exe*                 yes.exe*
+ getconf.exe*                 msys-edit-0.dll*            rebase.exe*                   zcat*
+ getemojis*                   msys-expat-1.dll*           rebaseall*                    zcmp*
+ getfacl.exe*                 msys-ffi-7.dll*             recode-sr-latin.exe*          zdiff*
+ getopt.exe*                  msys-fido2-1.dll*           regtool.exe*                  zegrep*
+ gettext.exe*                 msys-gcc_s-seh-1.dll*       reset.exe*                    zfgrep*
+ gettext.sh*                  msys-gcrypt-20.dll*         restore*                      zforce*
+ gettextize*                  msys-gettextlib-0-21.dll*   rm.exe*                       zgrep*
+ gio-querymodules.exe*        msys-gettextsrc-0-21.dll*   rmdir.exe*                    zipgrep*
+ git-flow*                    msys-gio-2.0-0.dll*         rnano.exe*                    zipinfo.exe*
+ git-flow-bugfix              msys-glib-2.0-0.dll*        runcon.exe*                   zless*
+ gitflow-common               msys-gmodule-2.0-0.dll*     rview.exe*                    zmore*
+ git-flow-config              msys-gmp-10.dll*            rvim.exe*                     znew*
+ git-flow-feature             msys-gnutls-30.dll*         scp.exe*
+ git-flow-hotfix              msys-gobject-2.0-0.dll*     sdiff.exe*
+ git-flow-init                msys-gpg-error-0.dll*       sed.exe*
 
 
 
@@ -99,37 +207,38 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+$ ls doesnotexist
+ls: cannot access 'doesnotexist': No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+Up arrow key
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+We used -a and -l
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+Tab
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+-L
 
 ==========
 14.  Type:
@@ -138,7 +247,8 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+$ foo
+bash: foo: command not found
 
 
 ==========
@@ -148,6 +258,9 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
+barj8@JPC MINGW64 /d/Microsoft VS Projects
+$ foo
+bash: foo: command not found
 
 
 
@@ -158,3 +271,6 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+Command: LS
+Flag: -a 
+Argument: Desktop
